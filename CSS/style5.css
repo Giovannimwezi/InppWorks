@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(239, 239, 245);
+    background-image: none;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 80px;
+}
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    padding: 40px;
+}
+ul li{
+    display: inline;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 5px 20px;
+    border: 1px solid blueviolet transparent;
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background-color:blueviolet;
+    color: crimson;
+}
+ul li.activea{
+    background-color:blueviolet;
+    color: crimson;
+}
+.logo_inpp img{
+    float:left ;
+    width: 100px;
+    height:auto ;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}

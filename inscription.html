@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPP/GOMA</title>
+    <link rel="stylesheet" href="CSS/style4I.css">
+</head>
+<body>
+    <header>
+        <div class="en_tete">
+            <div class="logo_inpp">
+               <img src="image/p logoinpp.jpeg">
+               <p><img src="image/LOGO.jpg"></p>
+            </div>
+           <ul>
+           <li class="active"><a href="#">INSCRIPTION</a></li> 
+           <li><a href="Acceuil.html">Acceuil</a></li> 
+           </ul> 
+        </div>
+    </header>
+    <br>  
+    <marquee direction="right" scrollamount="5"><h1>PAGE D'INSCRIPTION</h1></marquee>
+    <br> <br> <br> 
+    <P>Si vous voulez rejoindre l'institution et vous etez un peu loin  nous ,</p>
+      <p>dans une ville differente , il ya plus de posssibilité de s'inscrir</p>
+        <p>veillez s'inscrir via cette page tout en tenant confiance que vos donnée sont sécurisé</P>
+    <form method="POST" action="inscription.php">
+    <div class="inscription">
+        <div class="forme">
+      <br><br>
+      <legende>INCRIVEZ-VOUS ICI</legende>
+      <br><br>
+     <span>Nom</span>
+        <label for="Nom"></label>
+        <input type="text"  id="nom" name="nome" required="required"><br><br><br>
+        <span>Post-nom</span>
+        <label for="post-nom"></label>
+        <input type="text" required="required"><br><br><br>
+        <span>prenom</span>
+        <label for="prenom"></label>
+        <input type="text" required="required"><br><br><br>
+        <span>Age</span>
+        <label for="Age"></label>
+        <input type="number" id="age" name="age" required="required"><br><br><br>
+        <span>Tél</span>
+        <label for="phone"></label>
+        <input type="tel"  id="phone" name="telephone" required="required"><br><br><br>
+        <span>Email</span>
+        <label for="Email"></label>
+        <input type="email" id="mail" name="mail" required="required"><br><br><br>
+        <label for="vile">ville de residence:</label>
+        <select name="ville" id="ville>
+        <optgroup label="RDC">
+        <option value="GOMA">GOMA</option>
+        <option value="KATANGA">KATANGA</option>
+        <option value="KINSHANSA">KINSHANSA</option>
+        <option value="BUKAVU">BUKAVU</option>
+        <option value="KISANGANI">KISANGANI</option>
+        <option value="LUMBUMBASHI">LUBUMBASHI</option>
+        <option value="KALEMIE">KALEMIE</option>
+        <option value="BENI">BENI</option>
+        <option value="KWILU">KWILU</option>
+    </optgroup>
+</select>
+
+      <br><br>
+      <br>
+      <div class="connection">
+    <input type="submit" value="Envoyez ">
+        </form>
+    </br> </br> </br> </br>
+    </div>
+
+    </div>
+</body>
+</html>
